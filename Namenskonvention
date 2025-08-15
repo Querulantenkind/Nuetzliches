@@ -1,0 +1,134 @@
+Hier ist die aktualisierte Dokumentennamenskonvention mit getauschter Reihenfolge von Versionsnummer und Beschreibung:
+
+# Dokumentennamenskonvention
+
+## Grundstruktur
+`<Erstellungsdatum>_<Projektcode>_<Dokumenttyp>_<Beschreibung>_<Versionsnummer>_<Status>`
+
+## Erstellungsdatum
+Das Erstellungsdatum sollte im Format `YYYY-MM-DD` verwendet werden. Optional kann die genaue Uhrzeit im Format `HHMMss` hinzugefügt werden, falls eine genauere zeitliche Einordnung erforderlich ist.
+
+Beispiel:
+- `20231015` für den 15. Oktober 2023
+- `20231015143022` für den 15. Oktober 2023 um 14:30:22 Uhr
+
+## Projektcodes (Zahlenkombinationen)
+Verwenden Sie eine 3-stellige Zahlenkombination für Projektcodes. Die erste Ziffer steht für die Abteilung, die beiden folgenden Ziffern für das individuelle Projekt innerhalb dieser Abteilung.
+
+### Abteilungszuordnung
+- 1: Marketing
+- 2: Finanzen
+- 3: Technologie
+- 4: Personalwesen
+- 5: Forschung
+- 6: Betrieb
+- 7: Vertrieb
+- 8: Kundenservice
+- 9: Unternehmensführung
+
+Beispiel:
+- 101: Marketing-Projekt 01
+- 102: Marketing-Projekt 02
+- 201: Finanz-Projekt 01
+- 301: Technologie-Projekt 01
+
+## Dokumententypen
+
+### Standarddokumente
+- REP: Bericht
+- PRO: Vorschlag
+- MIN: Protokoll
+- PLN: Plan
+- GDE: Leitfaden
+- PRE: Präsentation
+- BRF: Brief/Korrespondenz
+- CNT: Vertrag/Contract
+- INV: Rechnung/Invoice
+- ORD: Bestellung/Order
+- QTN: Angebot/Quote
+- RPT: Rechnungsprüfung/Review
+- TST: Testbericht/Test Report
+- AUD: Audit-Bericht
+- CMP: Compliance-Dokument
+- PRS: Pressemitteilung/Press Release
+- FAQ: Häufig gestellte Fragen
+- GLS: Glossar
+- LOG: Logdatei/Logfile
+- SRY: Umfrage/Survey
+- TRN: Übersetzung/Translation
+- WIK: Wiki-Eintrag
+- BLD: Bauplan/Blueprint
+- DGM: Diagramm/Diagram
+- FLW: Workflow-Dokument
+- SCR: Skript/Script
+- TMP: Vorlage/Template
+
+### Digitale Medien
+- IMG: Bild/Image
+- VID: Video
+- AUD: Audioaufnahme
+- POD: Podcast
+- ANM: Animation
+- GIF: GIF-Datei
+- 3DM: 3D-Modell
+- SVG: Vektorgrafik
+- PSD: Photoshop-Datei
+- AI: Adobe Illustrator-Datei
+
+### Quellenangaben
+- SRC: Quelle/Source
+- REF: Referenz/Reference
+- CIT: Zitat/Citation
+- BIB: Bibliografie
+- ART: Artikel
+- BK: Buch
+- JNL: Journal
+- WBP: Webseite/Website
+- PRS: Präsentation
+- DSR: Datenquelle/Data Source
+
+## Kurze Beschreibung
+Die kurze Beschreibung sollte:
+- In Großbuchstaben geschrieben werden
+- Leerzeichen durch Unterstriche (`_`) ersetzt werden
+- Den Inhalt oder Zweck des Dokuments prägnant zusammenfassen
+- Maximal 20 Zeichen lang sein (ohne Unterstriche)
+
+Beispiel:
+- `MARKETING_STRATEGIE` für eine Marketingstrategie
+- `FINANZBERICHT_Q2` für einen Finanzbericht des zweiten Quartals
+
+## Versionierung
+Die Versionsnummer sollte im Format `vX.Y` verwendet werden, wobei:
+- `X` die Hauptversionsnummer darstellt (große Änderungen oder neue Funktionen)
+- `Y` die Nebenversionsnummer darstellt (kleinere Aktualisierungen oder Fehlerbehebungen)
+
+Beispiel:
+- `v1.0` für die erste offizielle Version
+- `v1.1` für eine kleine Aktualisierung der ersten Version
+- `v2.0` für eine große Überarbeitung oder neue Hauptversion
+
+## Statusmeldung
+Die Statusmeldung sollte am Ende des Dateinamens hinzugefügt werden und den aktuellen Bearbeitungsstatus des Dokuments angeben. Verwenden Sie folgende Statuscodes:
+
+- ENTW: Entwurf
+- KONT: Kontrolliert
+- REZ: Rezensiert
+- ABGES: Abgeschickt
+- FINAL: Final
+- ARCHIV: Archiviert
+- VERW: Verworfen
+
+Beispiel:
+- `ENTW` für ein Dokument im Entwurfsstadium
+- `FINAL` für ein abgeschlossenes, finales Dokument
+
+## Beispiele
+- `20231015_101_REP_MARKETING_ANALYSIS_v1.0_ENTW`
+- `20231015_201_CNT_PARTNERSHIP_AGREEMENT_v1.0_KONT`
+- `20231015_301_TST_SOFTWARE_PERFORMANCE_v2.1_REZ`
+- `20231015143022_401_PRE_QUARTERLY_UPDATE_v1.0_ABGES`
+- `20231015_102_IMG_PRODUCT_LAUNCH_BANNER_v1.0_FINAL`
+- `20231015_501_ART_RESEARCH_FINDINGS_v1.0_ARCHIV`
+
+Diese Anpassung ermöglicht eine schnellere visuelle Identifikation des Dokumenteninhalts, da die Beschreibung nun vor der Versionsnummer steht, während die chronologische Sortierung durch das führende Datum erhalten bleibt.
